@@ -1,0 +1,19 @@
+
+.navBar {
+    font-family: 'League Gothic', sans-serif;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(38, 63, 38);
+
+    .link {
+        text-decoration: none;
+        font-size: 30px;
+        margin: 0 12px;
+        color: #fff;
+        &:hover {
+            color: rgb(233, 205, 146);
+        }
+    }
+}
